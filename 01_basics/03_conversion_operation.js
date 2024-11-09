@@ -49,7 +49,7 @@ false ==> 0
 null ==> 0
 undefined == > Nan 
 "33abc" ==> Nan 
-*/ 
+*/
 
 
 
@@ -87,4 +87,29 @@ undefined ==> false
 null ==> false
 34 ==>  true 
 */
+
+
+
+/**************************OPERATIONS****************************/
+
+//ARITHMETIC OPERATION 
+console.log(23 + 33);
+console.log(44 / 22);
+console.log(44 - 22);
+console.log(4**2);
+console.log(4 * 2);
+
+let str1 = "hello"
+let str2 = " AAYUSH"
+console.log(str1 + str2);
+
+
+console.log(1 + "1" + 2) //112
+console.log(1 + 3 + "3" + 4 + 5); //4345
+console.log("43" + 3 + 4); //4334
+
+
+//PREFIX AND POSTFIX OPEARTION 
+
+
 
