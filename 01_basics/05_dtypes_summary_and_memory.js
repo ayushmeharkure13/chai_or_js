@@ -31,12 +31,20 @@ let num2 = 234234564634776786n
 2.Objects
 3.Functions
 */
+//ARRAY
 const flowers = ['rose' , 'lotus' , 'lilly' , 'tulip'];
+//OBJECT IS IN THE FORM OF :----> key value pair
 let my_obj =  {
    name : "aayush",
    age : 23, 
    rank : 0
 }
+console.log(typeof(my_obj));
+
+
+
+
+
 /* node --> C++ program which includes google's V8 JS engine--->
 with this code we can run JS outside of the browser 
 hence we can pass our js code for execution to node and this means we can build   
@@ -46,3 +54,9 @@ the backend for web applications using node .
 //difference between the website and web applicaton 
 //MAIN difference between 
 //web applications run on the web server and it can be accessed through the web browser
+
+
+
+// TYPES OF MEMORY :---> Stack and Heap
+//Stack --> (primitive dtypes)
+//Heap ---> (Non primitive dtypes) 
